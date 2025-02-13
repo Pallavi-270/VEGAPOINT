@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <iframe src="navbar.html"></iframe> -->
+    <link rel="stylesheet" href="./styles/index.css">
+    <style>
+        #form {
+            width:40%;
+            height:80%;
+            background-color: rgb(62, 234, 62);
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            margin:auto;
+            margin-top: 30px;
+        }
+        #the{
+           display:flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav"></div>
+    <div id="form">
+        <h4>SignUp/Login page</h4>
+        <form id="the"for="action">
+            <input type="email" placeholder="Enter email" name="email" />
+            <input type="password" placeholder="Enter passsword" name="password" />
+        </form>
+        <p>Already register<a href="#">login</a></p>
+        <button type="submit">Register</button>
+    </div>
+</body>
+<script src="./scripts/navbar.js"></script>
+</html>

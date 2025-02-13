@@ -1,0 +1,28 @@
+{
+  "products":[
+    {
+        "id": 1,
+        "name": "Apple",
+        "price": 120,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 2,
+        "name": "Banana",
+        "price": 60,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 3,
+        "name": "Carrot",
+        "price": 80,
+        "image": "https://via.placeholder.com/150"
+    },{
+      "id": 4,
+      "name":"capacicum",
+      "price": 80,
+      "image": "https://via.placeholder.com/150"
+    }
+  ]
+  
+}

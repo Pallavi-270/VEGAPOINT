@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<style>
+#cart{
+    background-color: beige;
+    width:40%;
+    height:300px;
+    margin:auto;
+    margin-top: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+}
+#add{
+    color:red;
+    background-color:rgb(42, 42, 119);
+}
+#add:hover{
+    color:white;
+    background-color: blue;
+}
+</style>
+<body>
+    <div id="nav"></div>
+    <div id="cart">
+        <img src="https://i0.wp.com/harvest-bristol.coop/wp-content/uploads/2022/11/click-collect-basket.webp?resize=1000%2C1000&ssl=1" width="200px"/>
+    <p>let's fill the empty basket</p>
+    <button id="add">Continue Shopping</button>
+</div>
+<div id = "footer"></div>
+</body>
+<script src="./scripts/navbar.js"></script>
+<script src="./scripts/footer.js"></script>
+<script src="./scripts/product.js"></script>
+
+</html>
