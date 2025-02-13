@@ -1,0 +1,94 @@
+#header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(59, 214, 59);
+    justify-content: space-evenly;
+    height: 100px;
+
+}
+
+#nav>a {
+    width:100%;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: large;
+    color:white;
+}
+
+a:hover {
+    background-color: green;
+}
+#middle{
+    background-color: rgb(59, 214, 59);
+}
+
+#icon {
+    border-radius: 50%;
+}
+
+#search {
+    width: 500px;
+}
+
+#items {
+    height: 300px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    /* margin: 20px; */
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+
+#initem {
+    display: flex;
+    flex-direction: column;
+    /* height: fit-content; */
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#items>div {
+    width: 200px;
+    height: 100px;
+}
+
+#category {
+    width: 20%;
+    margin: 20px;
+    background-color: rgb(55, 189, 109);
+}
+
+#footer {
+    background-color: rgb(154, 230, 185);
+    display: grid;
+    grid-template-columns: 50px, 50px, 50px;
+    margin-top: 20px;
+}
+footer>div{
+    margin-left: 20px;
+}
+
+#one {
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: 20px;
+}
+
+#two {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#three {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#four{
+    margin-left: 20px;
+}
+#five{
+    grid-column:2;
+    grid-row: 3;
+}
